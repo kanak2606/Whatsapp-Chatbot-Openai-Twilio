@@ -39,7 +39,8 @@ pip install -r requirements.txt
 ### 4. Put your OpenAI API Key 
 Set your OpenAI API key by replacing <OPEN AI KEY> with your own API key in the openai.api_key variable in the code.
 
-### 5. Connect your local server to the internet using ngrok. Download and install ngrok, then run it with the following command:
+### 5. Connect your local server to the internet using ngrok.
+Download and install ngrok, then run it with the following command:
 
 ```bash
 ngrok http 4000
