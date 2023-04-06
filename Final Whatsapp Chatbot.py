@@ -21,6 +21,7 @@ def bot():
     if 'image' in msg_from_user:
         # Generate and send an image related to the incoming message
         msg.media(Dall(msg_from_user))
+        print(msg_from_user)
         return str(Server_resp)
     # Check if the incoming message is a greeting message
     elif 'hi' in msg_from_user and len(msg_from_user.strip().split()) == 1:
@@ -30,10 +31,13 @@ def bot():
                  "I can Generate any text and give answer to all your queries \n"
                  "If Any message Contain the word IMAGE, I will generate an image related to it \n"
                  )
+        print(msg_from_user)
         return str(Server_resp)
     else:
         # If the incoming message is not a greeting or an image request, generate a response using OpenAI
         msg.body(AI(msg_from_user))
+        print(msg_from_user)
+        print(AI(msg_from_user))
         return str(Server_resp)
 
 # Function to generate a response using OpenAI
