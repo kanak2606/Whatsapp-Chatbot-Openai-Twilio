@@ -3,7 +3,7 @@ from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 
 # Set the OpenAI API key
-openai.api_key = "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"
+openai.api_key = "<OPEN AI KEY>"
 
 # Initialize the Flask app
 app = Flask(__name__)
