@@ -15,7 +15,8 @@ To use this chatbot, you will need to set up a Twilio account and a WhatsApp San
 Once you have set up your Twilio and OpenAI accounts and installed the required packages, you can run the chatbot using the following command:
 
 ```bash
-python app.py
+python app.py &
+
 ## Usage
 To use the chatbot, simply send a message to the WhatsApp number associated with your Twilio Sandbox. If your message contains the word "IMAGE", the chatbot will generate an image based on the content of your message. If your message contains any other text, the chatbot will generate a response based on the content of your message.
 
