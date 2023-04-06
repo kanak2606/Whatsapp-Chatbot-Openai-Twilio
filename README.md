@@ -25,7 +25,7 @@ To use the chatbot, simply send a message to the WhatsApp number associated with
 To use this code, you will need to follow these steps:
 
 ### 1. The this repository to your local machine:
-'''bash
+```bash
 git clone https://github.com/example/whatsapp-chatbot.git
 ```
 ### 2. Navigate to the project directory:
